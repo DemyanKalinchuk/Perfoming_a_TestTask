@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="F:/Perfoming_a_TestTask">
+      <groups>
+         <run>
+            <include name="smokeTest1"></include>
+         </run>
+      </groups>
+   
+   <classes>
+       <class name="tests.login.LoginPage"></class>
+   </classes>
+   
+    </test>
+    
+    
+</suite>
